@@ -1,0 +1,47 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 251, 251);
+    color: rgb(0, 2, 5);
+    margin: 10% 20% 20% 20%;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+b{
+    display: flex;
+    
+}
+
+.principal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexgrid{
+    display: flex;
+    min-height: 50vh;
+}
+
+.totales{
+    display: flex;
+    flex-direction: column;
+    
+}
+.totales, .tabla {
+    width: 49%;
+
+}
+
+.tablita {
+    display: flex;
+}
+
+.eliminar{
+    background-color: inherit;
+    border: 0px;
+}
